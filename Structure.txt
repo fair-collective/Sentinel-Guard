@@ -1,0 +1,41 @@
+sentinel-guard/
+│
+├── README.md                     ← Full guide (below)
+├── LICENSE                       ← MIT
+├── CHANGELOG.md                  ← v1.1
+│
+├── setup.exe                     ← Windows auto-installer
+├── setup.sh                      ← Mac/Linux auto-installer
+│
+├── backend/
+│   ├── guard_core.py             ← AI + Octokit + Travel + Evidence
+│   ├── config.json               ← Template
+│   ├── requirements.txt
+│   └── utils/
+│       ├── osint.py              ← IP trace + device fingerprint
+│       └── reporter.py           ← PDF + email
+│
+├── extension/
+│   ├── manifest.json
+│   ├── popup.html
+│   ├── popup.js
+│   ├── background.js
+│   └── content.js
+│
+├── mobile/
+│   ├── lib/main.dart             ← Flutter app (Android/iOS)
+│   ├── pubspec.yaml
+│   ├── android/
+│   │   └── app/build/outputs/apk/release/sentinel-guard.apk
+│   └── ios/
+│       └── Runner.xcworkspace
+│
+├── dashboard/
+│   └── index.html                ← Local web UI
+│
+├── assets/
+│   ├── icon.png
+│   └── logo.png
+│
+└── releases/
+    └── SentinelGuard-v1.1.zip    ← Full downloadable
