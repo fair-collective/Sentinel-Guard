@@ -1,0 +1,20 @@
+# 1. Create repo
+gh repo create fair-collective/sentinel-guard --public
+
+# 2. Clone & add all files
+git clone https://github.com/fair-collective/sentinel-guard.git
+cd sentinel-guard
+# → Paste all files from above
+
+# 3. Commit
+git add .
+git commit -m "feat: Sentinel Guard v1.1 — full cross-platform release"
+
+# 4. Push
+git push
+
+# 5. Create release
+gh release create v1.1 SentinelGuard-v1.1.zip --title "v1.1 — All Platforms" --notes "Full AI protection"
+
+# 6. Tweet
+# → Copy tweet above
