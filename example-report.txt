@@ -1,0 +1,9 @@
+Subject: SENTINEL GUARD: Hack Blocked on YouTube
+
+Time: 14:32 UTC
+Platform: YouTube
+IP: 185.220.101.45 → Moscow, Russia
+Device: Chrome 120 on Windows 10
+Threat Score: 98%
+Action: Session revoked
+Evidence: Attached PDF
