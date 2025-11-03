@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Sentinel Guard",
+  "version": "1.1",
+  "description": "AI Protection for Creators",
+  "permissions": ["activeTab", "storage", "identity", "webRequest"],
+  "host_permissions": ["*://*.youtube.com/*", "*://*.twitter.com/*", "*://*.instagram.com/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html" },
+  "icons": { "128": "assets/icon.png" }
+}
